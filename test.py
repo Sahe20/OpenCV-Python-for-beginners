@@ -15,5 +15,11 @@ import sys
 # print(id(my_tuple)) #immutable obj
 
 #reference count ex:
-a=300 
-print(sys.getrefcount(a))
+# a=300 
+# print(sys.getrefcount(a))
+
+#Literals 
+
+name = 'Musa \N{GRINNING FACE}' #literal 
+age_string = str(40) #str constructor, coverts integer to str
+print(name)
