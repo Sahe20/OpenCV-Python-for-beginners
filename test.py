@@ -20,6 +20,11 @@ import sys
 
 #Literals 
 
-name = 'Musa \N{GRINNING FACE}' #literal 
-age_string = str(40) #str constructor, coverts integer to str
-print(name)
+# name = 'Musa \N{GRINNING FACE}' #literal 
+# age_string = str(40) #str constructor, coverts integer to str
+# print(name)
+
+age = 23 # integer literal (int)
+cost = 9.9 # float literal (float)
+loc = 1+8j # complex literal (complex)
+print (type(age), type(cost), type(loc))
