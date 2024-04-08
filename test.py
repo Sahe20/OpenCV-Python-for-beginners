@@ -24,7 +24,12 @@ import sys
 # age_string = str(40) #str constructor, coverts integer to str
 # print(name)
 
-age = 23 # integer literal (int)
-cost = 9.9 # float literal (float)
-loc = 1+8j # complex literal (complex)
-print (type(age), type(cost), type(loc))
+# age = 23 # integer literal (int)
+# cost = 9.9 # float literal (float)
+# loc = 1+8j # complex literal (complex)
+# print (type(age), type(cost), type(loc))
+
+names = ['Abdullah', 'Ansu', 'Abraham'] #list literals
+characters = list ('aeiou')  # string literal -> list of characters
+print(names)
+print(characters)
