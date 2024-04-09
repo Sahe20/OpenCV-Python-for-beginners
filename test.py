@@ -33,3 +33,6 @@ names = ['Abdullah', 'Ansu', 'Abraham'] #list literals
 characters = list ('aeiou')  # string literal -> list of characters
 print(names)
 print(characters)
+x = ['aeiou'] #list
+print(x)
+
