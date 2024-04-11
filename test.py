@@ -29,10 +29,14 @@ import sys
 # loc = 1+8j # complex literal (complex)
 # print (type(age), type(cost), type(loc))
 
-names = ['Abdullah', 'Ansu', 'Abraham'] #list literals
-characters = list ('aeiou')  # string literal -> list of characters
-print(names)
-print(characters)
-x = ['aeiou'] #list
-print(x)
+# names = ['Abdullah', 'Ansu', 'Abraham'] #list literals
+# characters = list ('aeiou')  # string literal -> list of characters
+# print(names)
+# print(characters)
+# x = ['aeiou'] #list
+# print(x)
 
+person = ('Alieu', 22, '123-456-789', '10-Monrovia')
+person2 = tuple (['Aisha', 19, '012-345-678', 'Brewerville'])
+print(person)
+print(person2)
