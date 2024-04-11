@@ -45,9 +45,10 @@ import sys
                        #MATH OPERATIONS
 # A = (42 + 13) #addition
 # a = (42).__add__ (13)
-A = 42 - 13 #subtraction
-a = (42). __sub__ (13)
-# 42 * 13 #multiplication
+# A = 42 - 13 #subtraction
+# a = (42). __sub__ (13)
+A = 42 * 13 #multiplication
+a = (42).__mul__ (13)
 # 42 / 13 #division
 # 42 // 13 #floor division
 # 42 % 13 #modulus
