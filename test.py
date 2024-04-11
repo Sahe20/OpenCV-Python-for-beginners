@@ -43,9 +43,10 @@ import sys
 # print(person2)
 
                        #MATH OPERATIONS
-A = (42 + 13) #addition
-a = (42).__add__ (13)
-# 42 - 13 #subtraction
+# A = (42 + 13) #addition
+# a = (42).__add__ (13)
+A = 42 - 13 #subtraction
+a = (42). __sub__ (13)
 # 42 * 13 #multiplication
 # 42 / 13 #division
 # 42 // 13 #floor division
