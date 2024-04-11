@@ -64,5 +64,6 @@ import math
 # print(A)
                     # Strings 
 name = 'Musa'
-print(name)
-print(dir(name))
+print (name.upper())
+# print(name)
+# print(dir(name))
