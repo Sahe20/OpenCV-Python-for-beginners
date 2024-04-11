@@ -51,9 +51,10 @@ import sys
 # a = (42).__mul__ (13)
 # A = 42 / 13 #division
 # a = (42).__truediv__ (13)
-A = 42 // 13 #floor division
-a = (42).__floordiv__ (13)
-# 42 % 13 #modulus
+# A = 42 // 13 #floor division
+# a = (42).__floordiv__ (13)
+A = 42 % 13 #modulus
+a = (42).__mod__ (13)
 # 42 ** 13 #exponentiation
 # 42 ** 0.5 #square root
 # 42 ** (1/3) #cube root
