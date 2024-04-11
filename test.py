@@ -1,3 +1,4 @@
+from operator import __add__
 import sys
 #print ("Hello, World!")
 #mutable and immutable object ex:
@@ -36,7 +37,21 @@ import sys
 # x = ['aeiou'] #list
 # print(x)
 
-person = ('Alieu', 22, '123-456-789', '10-Monrovia')
-person2 = tuple (['Aisha', 19, '012-345-678', 'Brewerville'])
-print(person)
-print(person2)
+# person = ('Alieu', 22, '123-456-789', '10-Monrovia')
+# person2 = tuple (['Aisha', 19, '012-345-678', 'Brewerville'])
+# print(person)
+# print(person2)
+
+                       #MATH OPERATIONS
+A = (42 + 13) #addition
+a = (42).__add__ (13)
+# 42 - 13 #subtraction
+# 42 * 13 #multiplication
+# 42 / 13 #division
+# 42 // 13 #floor division
+# 42 % 13 #modulus
+# 42 ** 13 #exponentiation
+# 42 ** 0.5 #square root
+# 42 ** (1/3) #cube root
+print(a)
+print(A)
