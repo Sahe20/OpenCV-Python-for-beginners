@@ -56,9 +56,9 @@ import math
 # a = (42).__mod__ (13)
 # A = 42 ** 13 #exponentiation
 # a = (42).__pow__ (13)
-A = 42 ** 0.5 #square root
-number = 42
-a = math.sqrt(number)
-# 42 ** (1/3) #cube root
-print(a)
+# A = 42 ** 0.5 #square root
+# number = 42
+# a = math.sqrt(number)
+A = 42 ** (1/3) #cube root
+# print(a)
 print(A)
