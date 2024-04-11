@@ -59,6 +59,10 @@ import math
 # A = 42 ** 0.5 #square root
 # number = 42
 # a = math.sqrt(number)
-A = 42 ** (1/3) #cube root
+# A = 42 ** (1/3) #cube root
 # print(a)
-print(A)
+# print(A)
+                    # Strings 
+name = 'Musa'
+print(name)
+print(dir(name))
