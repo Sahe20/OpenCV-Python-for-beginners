@@ -136,9 +136,20 @@ import math
 # z = 5 > 3
 # print(z)
 
+# x = 9
+# y = 10
+# if x < y:
+#     print('x is less than y')
+# else:
+#     print('x is not less than y')
+
 x = 9
 y = 10
-if x < y:
-    print('x is less than y')
+z = 15 
+
+if x < y and y < z:
+    print('x is less than y and z')
+elif x < y or y < z:
+    print('x is less than y or z') 
 else:
-    print('x is not less than y')
+    print('x is not less than y and z')
