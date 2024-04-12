@@ -78,5 +78,8 @@ import math
 # age = 22
 # print (f'My name is {name} and I am {age} years old') 
 
-name = 'Musa'
-print(f"Name: {name:*^20}")
+# name = 'Musa'
+# print(f"Name: {name:*^20}")
+
+x = -22/100
+print(f'{x:= 10.1%}')
