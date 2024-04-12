@@ -99,16 +99,34 @@ import math
 
                         # Conditionals
 
-grade = 98
-if grade >= 95:
-    print('A+')
-if grade >= 90:
-    print('A')
-elif grade >= 80:
-    print('B')
-elif grade >= 70:
-    print('C')
-elif grade >= 60:
-    print('D')
+# grade = 98
+# if grade >= 95:
+#     print('A+')
+# if grade >= 90:
+#     print('A')
+# elif grade >= 80:
+#     print('B')
+# elif grade >= 70:
+#     print('C')
+# elif grade >= 60:
+#     print('D')
+# else:
+#     print('F')  
+
+language = input("Please enter your favorite programming language: ")
+if language == 'python':
+    print('Yes! You are a pythonist') 
+elif language == 'java':
+    print('Alright, you are a java developer.') 
+elif language == 'javascript':
+    print('You are a javascript developer.') 
+elif language == 'c++':
+    print('You are a c++ developer.') 
+elif language == 'c#':
+    print('You are a c# developer.') 
+elif language == 'php':
+    print('You are a php developer.') 
+elif language == 'ruby':
+    print('You are a ruby developer.')
 else:
-    print('F') 
+    print('You are a developer. just start!')
