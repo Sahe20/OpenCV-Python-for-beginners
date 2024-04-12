@@ -84,7 +84,12 @@ import math
 # x = -22/100
 # print(f'{x:= 10.1%}')
 
-x = 22
-print (f'binary: {x:b}') #binary
-print (f'octal: {x:o}') #octal
-print (f'hexadecimal: {x:x}') #hexadecimal
+# x = 22
+# print (f'binary: {x:b}') #binary
+# print (f'octal: {x:o}') #octal
+# print (f'hexadecimal: {x:x}') #hexadecimal
+
+#                     Help
+
+x = help(False)
+print(x)
