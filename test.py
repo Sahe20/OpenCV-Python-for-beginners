@@ -143,13 +143,21 @@ import math
 # else:
 #     print('x is not less than y')
 
-x = 9
-y = 10
-z = 15 
+# x = 9
+# y = 10
+# z = 15 
 
-if x < y and y < z:
-    print('x is less than y and z')
-elif x < y or y < z:
-    print('x is less than y or z') 
+# if x < y and y < z:
+#     print('x is less than y and z')
+# elif x < y or y < z:
+#     print('x is less than y or z') 
+# else:
+#     print('x is not less than y and z')
+
+a = 3
+b = 1
+boolval = a > b
+if boolval:
+    print('a is greater than b')
 else:
-    print('x is not less than y and z')
+    print('a is not greater than b') 
