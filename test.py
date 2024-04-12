@@ -74,7 +74,9 @@ import math
 # my learning process. """
 # print (p)
 
-name = 'Musa'
-age = 22
+# name = 'Musa'
+# age = 22
+# print (f'My name is {name} and I am {age} years old') 
 
-print (f'My name is {name} and I am {age} years old') 
+name = 'Musa'
+print(f"Name: {name:*^20}")
