@@ -91,5 +91,8 @@ import math
 
 #                     Help
 
-x = help(False)
+# x = help(False)
+# print(x)
+
+x = help()
 print(x)
