@@ -113,20 +113,25 @@ import math
 # else:
 #     print('F')  
 
-language = input("Please enter your favorite programming language: ")
-if language == 'python':
-    print('Yes! You are a pythonist') 
-elif language == 'java':
-    print('Alright, you are a java developer.') 
-elif language == 'javascript':
-    print('You are a javascript developer.') 
-elif language == 'c++':
-    print('You are a c++ developer.') 
-elif language == 'c#':
-    print('You are a c# developer.') 
-elif language == 'php':
-    print('You are a php developer.') 
-elif language == 'ruby':
-    print('You are a ruby developer.')
-else:
-    print('You are a developer. just start!')
+# language = input("Please enter your favorite programming language: ")
+# if language == 'python':
+#     print('Yes! You are a pythonist') 
+# elif language == 'java':
+#     print('Alright, you are a java developer.') 
+# elif language == 'javascript':
+#     print('You are a javascript developer.') 
+# elif language == 'c++':
+#     print('You are a c++ developer.') 
+# elif language == 'c#':
+#     print('You are a c# developer.') 
+# elif language == 'php':
+#     print('You are a php developer.') 
+# elif language == 'ruby':
+#     print('You are a ruby developer.')
+# else:
+#     print('You are a developer. just start!')
+
+# x = True
+# y = False
+z = 5 > 3
+print(z)
