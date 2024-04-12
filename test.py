@@ -68,8 +68,13 @@ import math
 # print(name)
 # print(dir(name))
 
-p = """ Hi, welcome to my journey of ai understanding 
-and development. I have started with image processing 
-and computer vision, now i am starting python to shape 
-my learning process. """
-print (p)
+# p = """ Hi, welcome to my journey of ai understanding 
+# and development. I have started with image processing 
+# and computer vision, now i am starting python to shape 
+# my learning process. """
+# print (p)
+
+name = 'Musa'
+age = 22
+
+print (f'My name is {name} and I am {age} years old') 
