@@ -63,7 +63,13 @@ import math
 # print(a)
 # print(A)
                     # Strings 
-name = 'Musa'
-print (name.upper())
+# name = 'Musa'
+# print (name.upper())
 # print(name)
 # print(dir(name))
+
+p = """ Hi, welcome to my journey of ai understanding 
+and development. I have started with image processing 
+and computer vision, now i am starting python to shape 
+my learning process. """
+print (p)
