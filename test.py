@@ -268,9 +268,13 @@ import math
 #         continue
 #     print(index, value) 
 
-my_dic = {"Name": "Musa", "Credit": 9.99}
-for key in my_dic:
-    print(key) 
+# my_dic = {"Name": "Musa", "Credit": 9.99}
+# for key in my_dic:
+#     print(key) 
 
-for key, value in my_dic.items():
-    print(key, value)
+# for key, value in my_dic.items():
+#     print(key, value)
+
+with open('test.txt', 'r') as f:
+    contents = f.read()
+print(contents)
