@@ -256,8 +256,14 @@ import math
 # for index, value in enumerate(fruits, start=1):
 #     print(index, value)
 
-fruits = ["Kiwi", "Mango", "Avocado"]
+# fruits = ["Kiwi", "Mango", "Avocado"]
+# for index, value in enumerate(fruits, start=1):
+#     if value == 'Mango':
+#         break
+#     print(index, value) 
+
+fruits = ["Kiwi", "Mango", "Avocado"] 
 for index, value in enumerate(fruits, start=1):
     if value == 'Mango':
-        break
+        continue
     print(index, value)
