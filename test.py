@@ -282,4 +282,5 @@ import math
 with open('test.txt', 'w') as file:
     file.write('I am learning files in python.\n')
     file.write('I am understanding this now.\n') 
-print('We have written to the file successfully!') 
+    file.write('This is a grinning emoji\N{GRINNING FACE}')
+print('We have written to the file successfully!')  
