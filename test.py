@@ -287,3 +287,5 @@ import math
 
 list = ['Laptop', 'Book', 'Pen', 'Phone']
 print(list)
+list.append('Nuts')
+print(list)
