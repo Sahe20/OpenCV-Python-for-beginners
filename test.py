@@ -301,3 +301,9 @@ text = 'Hello Guys'
 print(text[2:8])
 print(text[:5])
 print(text[0:])
+
+range_num = range(10)
+print(range_num[2:9]) 
+print(range_num[3:])
+print(range_num[:8])
+print(list(range_num[1:8]))
