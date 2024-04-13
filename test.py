@@ -240,5 +240,8 @@ import math
 
                     # Iteration
 
-for number in [0,1,2,3,4,5,6]:
+# for number in [0,1,2,3,4,5,6]:
+#     print(number)
+
+for number in range(0, 7):
     print(number)
