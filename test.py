@@ -274,7 +274,7 @@ import math
 
 # for key, value in my_dic.items():
 #     print(key, value)
-
+                #Files
 # with open('test.txt', 'r') as f:
 #     contents = f.read()
 # print(contents)
@@ -284,10 +284,15 @@ import math
 #     file.write('I am understanding this now.\n') 
 #     file.write('This is a grinning emoji\N{GRINNING FACE}')
 # print('We have written to the file successfully!')  
-
-list = ['Laptop', 'Book', 'Pen', 'Phone']
-print(list)
-list.append('Nuts')
-print(list)
-list[1]='Pencil'
-print(list)
+                    #List
+# list = ['Laptop', 'Book', 'Pen', 'Phone']
+# print(list)
+# list.append('Nuts')
+# print(list)
+# list[1]='Pencil'
+# print(list)
+                    #Slicing
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(numbers[0:3])
+print(numbers[:4])
+print(numbers[5:])
