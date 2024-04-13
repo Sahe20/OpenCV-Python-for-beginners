@@ -74,6 +74,28 @@ import math
 # my learning process. """
 # print (p)
 
+# def is_c_greater_than_d_plus_e (c, d, e): 
+#     if c > d + e:
+#         print (True)
+#     elif c == d + e:
+#         print ('Equal')
+#     else:
+#         print (False) 
+# def is_c_greater_than_d_plus_e (c, d, e): 
+#     if c > d + e:
+#         print (True)
+#     elif c == d + e:
+#         print ('Equal')
+#     else:
+#         print (False) 
+# is_c_greater_than_d_plus_e (1, 2, 3) 
+# is_c_greater_than_d_plus_e (5, 2, 1) 
+# is_c_greater_than_d_plus_e (3, 2, 1) 
+# is_c_greater_than_d_plus_e (7, 6.9, 0.2)
+# is_c_greater_than_d_plus_e (1, 2, 3) 
+# is_c_greater_than_d_plus_e (5, 2, 1) 
+# is_c_greater_than_d_plus_e (3, 2, 1) 
+# is_c_greater_than_d_plus_e (7, 6.9, 0.2)
 # name = 'Musa'
 # age = 22
 # print (f'My name is {name} and I am {age} years old') 
@@ -192,14 +214,31 @@ import math
 # print(are_you_sad(False, True))
 # print(are_you_sad(False, False))
 
-def is_c_greater_than_d_plus_e (c, d, e): 
-    if c > d + e:
-        print (True)
-    elif c == d + e:
-        print ('Equal')
-    else:
-        print (False) 
-is_c_greater_than_d_plus_e (1, 2, 3) 
-is_c_greater_than_d_plus_e (5, 2, 1) 
-is_c_greater_than_d_plus_e (3, 2, 1) 
-is_c_greater_than_d_plus_e (7, 6.9, 0.2)
+# def is_c_greater_than_d_plus_e (c, d, e): 
+#     if c > d + e:
+#         print (True)
+#     elif c == d + e:
+#         print ('Equal')
+#     else:
+#         print (False) 
+# is_c_greater_than_d_plus_e (1, 2, 3) 
+# is_c_greater_than_d_plus_e (5, 2, 1) 
+# is_c_greater_than_d_plus_e (3, 2, 1) 
+# is_c_greater_than_d_plus_e (7, 6.9, 0.2)
+    #   Coming later
+# def is_c_greater_than_d_plus_e (c, d, e): 
+#     if c > d + e:
+#         print ('C is greater than D plus E')
+#     elif c == d + e:
+#         print ('C equals D plus E')
+#     else:
+#         print ('C is less than D plus E') 
+
+# is_c_greater_than_d_plus_e (c = input('Enter c: '), 
+# d = input('Enter d: '), 
+# e = input('Enter e: ') )  
+
+                    # Iteration
+
+for number in [0,1,2,3,4,5,6]:
+    print(number)
