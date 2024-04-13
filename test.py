@@ -262,8 +262,15 @@ import math
 #         break
 #     print(index, value) 
 
-fruits = ["Kiwi", "Mango", "Avocado"] 
-for index, value in enumerate(fruits, start=1):
-    if value == 'Mango':
-        continue
-    print(index, value)
+# fruits = ["Kiwi", "Mango", "Avocado"] 
+# for index, value in enumerate(fruits, start=1):
+#     if value == 'Mango':
+#         continue
+#     print(index, value) 
+
+my_dic = {"Name": "Musa", "Credit": 9.99}
+for key in my_dic:
+    print(key) 
+
+for key, value in my_dic.items():
+    print(key, value)
