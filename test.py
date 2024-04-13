@@ -154,10 +154,21 @@ import math
 # else:
 #     print('x is not less than y and z')
 
-a = 3
-b = 1
-boolval = a > b
-if boolval:
-    print('a is greater than b')
-else:
-    print('a is not greater than b') 
+# a = 3
+# b = 1
+# boolval = a > b
+# if boolval:
+#     print('a is greater than b')
+# else:
+#     print('a is not greater than b') 
+
+def are_you_sad ( is_rainy, has_umbrella ):
+    if is_rainy == True and has_umbrella == False:
+        print('You are sad')
+    else:
+        print('You are not sad') 
+
+are_you_sad(True, False)
+are_you_sad(True, True) 
+are_you_sad(False, True)
+are_you_sad(False, False)
