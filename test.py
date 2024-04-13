@@ -275,6 +275,11 @@ import math
 # for key, value in my_dic.items():
 #     print(key, value)
 
-with open('test.txt', 'r') as f:
-    contents = f.read()
-print(contents)
+# with open('test.txt', 'r') as f:
+#     contents = f.read()
+# print(contents)
+
+with open('test.txt', 'w') as file:
+    file.write('I am learning files in python.\n')
+    file.write('I am understanding this now.\n') 
+print('We have written to the file successfully!') 
