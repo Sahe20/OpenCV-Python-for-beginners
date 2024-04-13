@@ -246,5 +246,8 @@ import math
 # for number in range(0, 7):
 #     print(number)
 
-x = list(range(6))
-print(x)
+# x = list(range(6))
+# print(x)
+
+a = list(range(0,8))
+print(a)
