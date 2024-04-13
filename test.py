@@ -279,8 +279,11 @@ import math
 #     contents = f.read()
 # print(contents)
 
-with open('test.txt', 'w') as file:
-    file.write('I am learning files in python.\n')
-    file.write('I am understanding this now.\n') 
-    file.write('This is a grinning emoji\N{GRINNING FACE}')
-print('We have written to the file successfully!')  
+# with open('test.txt', 'w') as file:
+#     file.write('I am learning files in python.\n')
+#     file.write('I am understanding this now.\n') 
+#     file.write('This is a grinning emoji\N{GRINNING FACE}')
+# print('We have written to the file successfully!')  
+
+list = ['Laptop', 'Book', 'Pen', 'Phone']
+print(list)
