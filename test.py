@@ -162,13 +162,24 @@ import math
 # else:
 #     print('a is not greater than b') 
 
+# def are_you_sad ( is_rainy, has_umbrella ):
+#     if is_rainy == True and has_umbrella == False:
+#         print('You are sad')
+#     else:
+#         print('You are not sad') 
+
+# are_you_sad(True, False)
+# are_you_sad(True, True) 
+# are_you_sad(False, True)
+# are_you_sad(False, False)
+
 def are_you_sad ( is_rainy, has_umbrella ):
-    if is_rainy == True and has_umbrella == False:
-        print('You are sad')
+    if is_rainy and not has_umbrella:
+        print('You are sad') 
     else:
         print('You are not sad') 
 
 are_you_sad(True, False)
-are_you_sad(True, True) 
+are_you_sad(True, True)
 are_you_sad(False, True)
 are_you_sad(False, False)
