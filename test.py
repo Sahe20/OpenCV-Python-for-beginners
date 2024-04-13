@@ -289,3 +289,5 @@ list = ['Laptop', 'Book', 'Pen', 'Phone']
 print(list)
 list.append('Nuts')
 print(list)
+list[1]='Pencil'
+print(list)
