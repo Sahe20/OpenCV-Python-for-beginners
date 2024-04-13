@@ -252,6 +252,12 @@ import math
 # a = list(range(0,8))
 # print(a)
 
+# fruits = ["Kiwi", "Mango", "Avocado"]
+# for index, value in enumerate(fruits, start=1):
+#     print(index, value)
+
 fruits = ["Kiwi", "Mango", "Avocado"]
 for index, value in enumerate(fruits, start=1):
+    if value == 'Mango':
+        break
     print(index, value)
