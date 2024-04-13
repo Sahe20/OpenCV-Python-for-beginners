@@ -249,5 +249,9 @@ import math
 # x = list(range(6))
 # print(x)
 
-a = list(range(0,8))
-print(a)
+# a = list(range(0,8))
+# print(a)
+
+fruits = ["Kiwi", "Mango", "Avocado"]
+for index, value in enumerate(fruits, start=1):
+    print(index, value)
