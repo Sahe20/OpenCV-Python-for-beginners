@@ -184,10 +184,22 @@ import math
 # are_you_sad(False, True)
 # are_you_sad(False, False)
 
-def are_you_sad ( is_rainy, has_umbrella ): 
-    return is_rainy and not has_umbrella
+# def are_you_sad ( is_rainy, has_umbrella ): 
+#     return is_rainy and not has_umbrella
 
-print(are_you_sad(True, False))
-print(are_you_sad(True, True)) 
-print(are_you_sad(False, True))
-print(are_you_sad(False, False))
+# print(are_you_sad(True, False))
+# print(are_you_sad(True, True)) 
+# print(are_you_sad(False, True))
+# print(are_you_sad(False, False))
+
+def is_c_greater_than_d_plus_e (c, d, e): 
+    if c > d + e:
+        print (True)
+    elif c == d + e:
+        print ('Equal')
+    else:
+        print (False) 
+is_c_greater_than_d_plus_e (1, 2, 3) 
+is_c_greater_than_d_plus_e (5, 2, 1) 
+is_c_greater_than_d_plus_e (3, 2, 1) 
+is_c_greater_than_d_plus_e (7, 6.9, 0.2)
