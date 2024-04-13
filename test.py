@@ -173,13 +173,21 @@ import math
 # are_you_sad(False, True)
 # are_you_sad(False, False)
 
-def are_you_sad ( is_rainy, has_umbrella ):
-    if is_rainy and not has_umbrella:
-        print('You are sad') 
-    else:
-        print('You are not sad') 
+# def are_you_sad ( is_rainy, has_umbrella ):
+#     if is_rainy and not has_umbrella:
+#         print('You are sad') 
+#     else:
+#         print('You are not sad') 
 
-are_you_sad(True, False)
-are_you_sad(True, True)
-are_you_sad(False, True)
-are_you_sad(False, False)
+# are_you_sad(True, False)
+# are_you_sad(True, True)
+# are_you_sad(False, True)
+# are_you_sad(False, False)
+
+def are_you_sad ( is_rainy, has_umbrella ): 
+    return is_rainy and not has_umbrella
+
+print(are_you_sad(True, False))
+print(are_you_sad(True, True)) 
+print(are_you_sad(False, True))
+print(are_you_sad(False, False))
