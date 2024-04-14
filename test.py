@@ -320,22 +320,26 @@ import math
 # uppercase_text = [letter.upper() for letter in text]
 # print(uppercase_text) 
                         # Dictionary
-my_dict = {'Name':'Musa', 'Age':23, 'City':'Monrovia'}
-print(my_dict)
-print (my_dict['Name'])
-print (my_dict['Age'])
-print (my_dict['City']) 
+# my_dict = {'Name':'Musa', 'Age':23, 'City':'Monrovia'}
+# print(my_dict)
+# print (my_dict['Name'])
+# print (my_dict['Age'])
+# print (my_dict['City']) 
 
-my_dict['Country'] = 'Liberia'
-print(my_dict) 
+# my_dict['Country'] = 'Liberia'
+# print(my_dict) 
 
-my_dict['Age'] = 24
-print(my_dict) 
+# my_dict['Age'] = 24
+# print(my_dict) 
 
-del my_dict['City']
-print(my_dict)
+# del my_dict['City']
+# print(my_dict)
 
-for key, value in my_dict.items():
-    print(key, value)
+# for key, value in my_dict.items():
+#     print(key, value)
 
-print ('food' in my_dict)
+# print ('food' in my_dict)
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+new_dict = {v: k for k, v in my_dict.items()}
+print(new_dict)
