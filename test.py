@@ -1,4 +1,5 @@
 import math
+from unittest import result
 #print ("Hello, World!")
 #mutable and immutable object ex:
 
@@ -390,3 +391,22 @@ try:
         print(content) 
 except FileNotFoundError:
     print("That file was not found.")
+
+def divide(a, b):
+    if b == 0:
+        raise ZeroDivisionError("You can't divide by zero!")
+    return a / b 
+
+try:
+    result == divide(10, 0)
+except ValueError as error:
+    print(error)
+
+except ZeroDivisionError as error:
+    print(error)
+
+else:
+    print(result)
+
+finally:
+    print("This code always runs.")
