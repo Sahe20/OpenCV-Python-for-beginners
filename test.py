@@ -383,3 +383,10 @@ try:
     print(x)
 except ZeroDivisionError:
     print("You can't divide by zero!")
+
+try:
+    with open("file.txt") as file:
+        content = file.read()
+        print(content) 
+except FileNotFoundError:
+    print("That file was not found.")
