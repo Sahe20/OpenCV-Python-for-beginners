@@ -340,6 +340,10 @@ import math
 
 # print ('food' in my_dict)
 
-my_dict = {'a': 1, 'b': 2, 'c': 3}
-new_dict = {v: k for k, v in my_dict.items()}
-print(new_dict)
+# my_dict = {'a': 1, 'b': 2, 'c': 3}
+# new_dict = {v: k for k, v in my_dict.items()}
+# print(new_dict)
+                    # Functions and Lambda
+def add(a, b):
+    return a + b
+print(add(1, 2))
