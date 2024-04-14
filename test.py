@@ -344,18 +344,36 @@ import math
 # new_dict = {v: k for k, v in my_dict.items()}
 # print(new_dict)
                     # Functions and Lambda
-def add(a, b):
-    return a + b
-print(add(1, 2))
+# def add(a, b):
+#     return a + b
+# print(add(1, 2))
 
-def add(a, b): return a + b
-print(add(1, 2))
+# def add(a, b): return a + b
+# print(add(1, 2))
 
-my_list = [(1,'a'), (2,'b'), (3,'c')]
-sorted_list = sorted(my_list, key=lambda x: x[1])
-print(sorted_list)
+# my_list = [(1,'a'), (2,'b'), (3,'c')]
+# sorted_list = sorted(my_list, key=lambda x: x[1])
+# print(sorted_list)
 
-def roots(x):
-    return x**0.5
+# def roots(x):
+#     return x**0.5
 
-print(roots(16))
+# print(roots(16))
+                    # Classes
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed 
+
+    def bark(self):
+        print("Woof Woof!") 
+
+    def __str__(self): 
+        return f"{self.name} is a {self.breed} dog." 
+
+my_dog = Dog("Fido", "A golden retriever")
+print(my_dog.name) 
+print(my_dog.breed) 
+my_dog.bark()
+
+print(my_dog)
