@@ -308,14 +308,17 @@ import math
 # print(range_num[:8])
 # print(list(range_num[1:8]))
                         #Comprehensions
-numbers = [1, 2, 3, 4, 5]
-squares = [x**2 for x in numbers]
-print(squares)
+# numbers = [1, 2, 3, 4, 5]
+# squares = [x**2 for x in numbers]
+# print(squares)
 
-numbers = [1, 2, 3, 4, 5, 6]
-even_numbers = [x for x in numbers if x % 2 == 0]
-print(even_numbers)
+# numbers = [1, 2, 3, 4, 5, 6]
+# even_numbers = [x for x in numbers if x % 2 == 0]
+# print(even_numbers)
 
-text = 'Hello Guys'
-uppercase_text = [letter.upper() for letter in text]
-print(uppercase_text)
+# text = 'Hello Guys'
+# uppercase_text = [letter.upper() for letter in text]
+# print(uppercase_text) 
+                        # Dictionary
+my_dict = {'Name':'Musa', 'Age':'23', 'City':'Monrovia'}
+print(my_dict)
