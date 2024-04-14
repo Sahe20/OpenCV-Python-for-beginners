@@ -360,20 +360,26 @@ import math
 
 # print(roots(16))
                     # Classes
-class Dog:
-    def __init__(self, name, breed):
-        self.name = name
-        self.breed = breed 
+# class Dog:
+#     def __init__(self, name, breed):
+#         self.name = name
+#         self.breed = breed 
 
-    def bark(self):
-        print("Woof Woof!") 
+#     def bark(self):
+#         print("Woof Woof!") 
 
-    def __str__(self): 
-        return f"{self.name} is a {self.breed} dog." 
+#     def __str__(self): 
+#         return f"{self.name} is a {self.breed} dog." 
 
-my_dog = Dog("Fido", "A golden retriever")
-print(my_dog.name) 
-print(my_dog.breed) 
-my_dog.bark()
+# my_dog = Dog("Fido", "A golden retriever")
+# print(my_dog.name) 
+# print(my_dog.breed) 
+# my_dog.bark()
 
-print(my_dog)
+# print(my_dog)
+                        # Exceptions
+try:
+    x = 1 / 0
+    print(x)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
