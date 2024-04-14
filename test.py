@@ -324,4 +324,7 @@ my_dict = {'Name':'Musa', 'Age':23, 'City':'Monrovia'}
 print(my_dict)
 print (my_dict['Name'])
 print (my_dict['Age'])
-print (my_dict['City'])
+print (my_dict['City']) 
+
+my_dict['Country'] = 'Liberia'
+print(my_dict)
