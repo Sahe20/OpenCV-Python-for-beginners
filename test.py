@@ -320,5 +320,8 @@ import math
 # uppercase_text = [letter.upper() for letter in text]
 # print(uppercase_text) 
                         # Dictionary
-my_dict = {'Name':'Musa', 'Age':'23', 'City':'Monrovia'}
+my_dict = {'Name':'Musa', 'Age':23, 'City':'Monrovia'}
 print(my_dict)
+print (my_dict['Name'])
+print (my_dict['Age'])
+print (my_dict['City'])
