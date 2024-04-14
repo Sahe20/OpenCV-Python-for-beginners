@@ -330,4 +330,7 @@ my_dict['Country'] = 'Liberia'
 print(my_dict) 
 
 my_dict['Age'] = 24
+print(my_dict) 
+
+del my_dict['City']
 print(my_dict)
