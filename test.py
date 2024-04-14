@@ -350,3 +350,7 @@ print(add(1, 2))
 
 def add(a, b): return a + b
 print(add(1, 2))
+
+my_list = [(1,'a'), (2,'b'), (3,'c')]
+sorted_list = sorted(my_list, key=lambda x: x[1])
+print(sorted_list)
