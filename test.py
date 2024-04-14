@@ -292,18 +292,22 @@ import math
 # list[1]='Pencil'
 # print(list)
                     #Slicing
-numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(numbers[0:3])
-print(numbers[:4])
-print(numbers[5:])
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# print(numbers[0:3])
+# print(numbers[:4])
+# print(numbers[5:])
 
-text = 'Hello Guys'
-print(text[2:8])
-print(text[:5])
-print(text[0:])
+# text = 'Hello Guys'
+# print(text[2:8])
+# print(text[:5])
+# print(text[0:])
 
-range_num = range(10)
-print(range_num[2:9]) 
-print(range_num[3:])
-print(range_num[:8])
-print(list(range_num[1:8]))
+# range_num = range(10)
+# print(range_num[2:9]) 
+# print(range_num[3:])
+# print(range_num[:8])
+# print(list(range_num[1:8]))
+                        #Comprehensions
+numbers = [1, 2, 3, 4, 5]
+squares = [x**2 for x in numbers]
+print(squares)
