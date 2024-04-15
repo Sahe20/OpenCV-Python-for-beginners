@@ -439,3 +439,6 @@ print(iris_z)
 
 x = np.mean(iris_z)
 print(x)
+
+y = np.std(iris_z)
+print(y)
