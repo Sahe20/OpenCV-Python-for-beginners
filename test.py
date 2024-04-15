@@ -416,6 +416,7 @@ digits = np.array(range(10))
 print(digits)
 print(digits.dtype)
 print(digits.shape)
+print(digits + 10)
 
 slow_digits = list(range(10))
 print(slow_digits)
