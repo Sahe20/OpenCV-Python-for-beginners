@@ -436,3 +436,6 @@ print(iris)
 
 iris_z = (iris - np.mean(iris))/np.std(iris)
 print(iris_z)
+
+x = np.mean(iris_z)
+print(x)
