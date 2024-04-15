@@ -1,6 +1,8 @@
 import math
 from unittest import result
 import numpy as np 
+# import sys; print(f"Try running: {sys.executable} -m pip install scikit-learn"); sys.exit(0)
+import sklearn.datasets 
 #print ("Hello, World!")
 #mutable and immutable object ex:
 
@@ -412,19 +414,22 @@ import numpy as np
 # finally:
 #     print("This code always runs.")
                     # Intro to numpy
-digits = np.array(range(10))
-print(digits)
-print(digits.dtype)
-print(digits.shape)
-print(digits + 10)
+# digits = np.array(range(10))
+# print(digits)
+# print(digits.dtype)
+# print(digits.shape)
+# print(digits + 10)
 
-slow_digits = list(range(10))
-print(slow_digits)
+# slow_digits = list(range(10))
+# print(slow_digits)
 
-nums = np.arange(100).reshape(20, 5) 
-print(nums)
+# nums = np.arange(100).reshape(20, 5) 
+# print(nums)
 
-x = nums % 2 == 0
-print(x)
+# x = nums % 2 == 0
+# print(x)
 
-print(nums[x])
+# print(nums[x])
+
+iris = sklearn.datasets.load_iris().data
+print(iris)
