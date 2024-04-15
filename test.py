@@ -1,5 +1,6 @@
 import math
 from unittest import result
+import numpy as np 
 #print ("Hello, World!")
 #mutable and immutable object ex:
 
@@ -379,34 +380,37 @@ from unittest import result
 
 # print(my_dog)
                         # Exceptions
-try:
-    x = 1 / 0
-    print(x)
-except ZeroDivisionError:
-    print("You can't divide by zero!")
+# try:
+#     x = 1 / 0
+#     print(x)
+# except ZeroDivisionError:
+#     print("You can't divide by zero!")
 
-try:
-    with open("file.txt") as file:
-        content = file.read()
-        print(content) 
-except FileNotFoundError:
-    print("That file was not found.")
+# try:
+#     with open("file.txt") as file:
+#         content = file.read()
+#         print(content) 
+# except FileNotFoundError:
+#     print("That file was not found.")
 
-def divide(a, b):
-    if b == 0:
-        raise ZeroDivisionError("You can't divide by zero!")
-    return a / b 
+# def divide(a, b):
+#     if b == 0:
+#         raise ZeroDivisionError("You can't divide by zero!")
+#     return a / b 
 
-try:
-    result == divide(10, 0)
-except ValueError as error:
-    print(error)
+# try:
+#     result == divide(10, 0)
+# except ValueError as error:
+#     print(error)
 
-except ZeroDivisionError as error:
-    print(error)
+# except ZeroDivisionError as error:
+#     print(error)
 
-else:
-    print(result)
+# else:
+#     print(result)
 
-finally:
-    print("This code always runs.")
+# finally:
+#     print("This code always runs.")
+
+digits = np.array(range(10))
+print(digits)
