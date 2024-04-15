@@ -430,6 +430,9 @@ import sklearn.datasets
 # print(x)
 
 # print(nums[x])
-
+                    # NumPy Example
 iris = sklearn.datasets.load_iris().data
 print(iris)
+
+iris_z = (iris - np.mean(iris))/np.std(iris)
+print(iris_z)
