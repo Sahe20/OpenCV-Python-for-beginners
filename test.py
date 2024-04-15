@@ -423,3 +423,8 @@ print(slow_digits)
 
 nums = np.arange(100).reshape(20, 5) 
 print(nums)
+
+x = nums % 2 == 0
+print(x)
+
+print(nums[x])
