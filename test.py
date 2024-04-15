@@ -431,14 +431,17 @@ import sklearn.datasets
 
 # print(nums[x])
                     # NumPy Example
-iris = sklearn.datasets.load_iris().data
-print(iris)
+# iris = sklearn.datasets.load_iris().data
+# print(iris)
 
-iris_z = (iris - np.mean(iris))/np.std(iris)
-print(iris_z)
+# iris_z = (iris - np.mean(iris))/np.std(iris)
+# print(iris_z)
 
-x = np.mean(iris_z)
-print(x)
+# x = np.mean(iris_z)
+# print(x)
 
-y = np.std(iris_z)
-print(y)
+# y = np.std(iris_z)
+# print(y)
+
+arr = np.array([2,4,6,8])
+print(arr*3)
