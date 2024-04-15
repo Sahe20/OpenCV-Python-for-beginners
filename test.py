@@ -414,3 +414,6 @@ import numpy as np
 
 digits = np.array(range(10))
 print(digits)
+
+slow_digits = list(range(10))
+print(slow_digits)
