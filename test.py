@@ -415,6 +415,7 @@ import numpy as np
 digits = np.array(range(10))
 print(digits)
 print(digits.dtype)
+print(digits.shape)
 
 slow_digits = list(range(10))
 print(slow_digits)
