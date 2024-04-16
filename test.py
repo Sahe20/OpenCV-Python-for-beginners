@@ -4,6 +4,7 @@ import numpy as np
 # import sys; print(f"Try running: {sys.executable} -m pip install scikit-learn"); sys.exit(0)
 import sklearn.datasets 
 import matplotlib.pyplot as plt 
+from pylab import * 
 #print ("Hello, World!")
 #mutable and immutable object ex:
 
@@ -467,9 +468,15 @@ import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [2, 3, 5, 7, 11]
 
+# plt.plot(x, y)
+# plt.xlabel('x')
+# plt.ylabel('y')
+# plt.title('Line Plot Example') 
+# plt.grid() 
+# plt.show()
+
+x = arange(0, 10, 0.2)
+y = sin(x)
+
 plt.plot(x, y)
-plt.xlabel('x')
-plt.ylabel('y')
-plt.title('Line Plot Example') 
-plt.grid() 
-plt.show()
+savefig('pylab1.png', dpi=300)
