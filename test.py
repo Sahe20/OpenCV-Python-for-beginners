@@ -457,10 +457,19 @@ import matplotlib.pyplot as plt
 # plt.plot(x, y)
 # plt.show()
 
-x = np.arange(0, 10, 0.2)
-y = np.sin(x) 
-fig = plt.figure()
-ax = fig.add_subplot(1, 1, 1)
-ax.plot(x, y) 
-plt.savefig('pyplot.png', dpi=300) 
+# x = np.arange(0, 10, 0.2)
+# y = np.sin(x) 
+# fig = plt.figure()
+# ax = fig.add_subplot(1, 1, 1)
+# ax.plot(x, y) 
+# plt.savefig('pyplot.png', dpi=300) 
+# plt.show()
+x = [1, 2, 3, 4, 5]
+y = [2, 3, 5, 7, 11]
+
+plt.plot(x, y)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Line Plot Example') 
+plt.grid() 
 plt.show()
