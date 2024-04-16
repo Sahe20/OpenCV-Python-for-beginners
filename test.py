@@ -3,6 +3,7 @@ from unittest import result
 import numpy as np 
 # import sys; print(f"Try running: {sys.executable} -m pip install scikit-learn"); sys.exit(0)
 import sklearn.datasets 
+import matplotlib.pyplot as plt 
 #print ("Hello, World!")
 #mutable and immutable object ex:
 
@@ -443,9 +444,15 @@ import sklearn.datasets
 # y = np.std(iris_z)
 # print(y)
 
-arr = np.array([2,4,6,8])
-print(arr*3)
+# arr = np.array([2,4,6,8])
+# print(arr*3)
 
-arr1 = np.array([1,2,3])
-arr2 = np.array([4,5,6])
-print( arr1 + arr2)
+# arr1 = np.array([1,2,3])
+# arr2 = np.array([4,5,6])
+# print( arr1 + arr2)
+                        # Matplotlib
+x = [1, 2, 3, 4, 5]
+y = [2, 3, 5, 7, 11]
+
+plt.plot(x, y)
+plt.show()
