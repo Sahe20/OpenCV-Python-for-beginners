@@ -12,6 +12,7 @@
         "Matplotlip",
         "Musa",
         "openml",
+        "pylab",
         "pythonist"
     ]
 }
