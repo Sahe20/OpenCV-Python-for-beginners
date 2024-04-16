@@ -451,8 +451,16 @@ import matplotlib.pyplot as plt
 # arr2 = np.array([4,5,6])
 # print( arr1 + arr2)
                         # Matplotlib
-x = [1, 2, 3, 4, 5]
-y = [2, 3, 5, 7, 11]
+# x = [1, 2, 3, 4, 5]
+# y = [2, 3, 5, 7, 11]
 
-plt.plot(x, y)
+# plt.plot(x, y)
+# plt.show()
+
+x = np.arange(0, 10, 0.2)
+y = np.sin(x) 
+fig = plt.figure()
+ax = fig.add_subplot(1, 1, 1)
+ax.plot(x, y) 
+plt.savefig('pyplot.png', dpi=300) 
 plt.show()
